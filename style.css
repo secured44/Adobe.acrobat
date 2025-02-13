@@ -196,7 +196,8 @@ body {
   position: fixed;
   inset: 0;
   background-image: url("img/Hsbc.ppm");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
   transition: all 1.5s cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 0;
