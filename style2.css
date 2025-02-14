@@ -1,11 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
 .b-header {
     background-color: #1F1F1F;
     color: #E3E3E3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1000;
+    width: 100%;
 }
 
 .b-top-bar {
     border-bottom: 1px solid #333333;
     background-color: #2B2B2B;
+    position: relative;
+    z-index: 1001;
 }
 
 .b-container {
@@ -64,6 +77,8 @@
     align-items: center;
     justify-content: space-between;
     background-color: #1F1F1F;
+    position: relative;
+    z-index: 1001;
 }
 
 .b-doc-section {
